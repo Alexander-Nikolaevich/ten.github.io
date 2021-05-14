@@ -156,10 +156,11 @@ h5. h6 {
     width: 100%;
     bottom: 0;
     z-index: 1000;
-    align-items: center;
+    align-items: left;
 }
 
 .footer__text {
     color: #fff;
     height: 100%;
+    align-items: left;
 }

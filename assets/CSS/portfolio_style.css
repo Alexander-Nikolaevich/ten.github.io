@@ -1,0 +1,55 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block{
+    width: 45%;
+    padding-top: 45%;
+    z-index: 10;
+    color: #fff;
+    transition: background-size .5s ease;
+
+}
+
+.block:hover {
+    background-size: 105%;
+}
+
+.block:hover .block__text {
+        opacity: 1;
+}
+
+.block1 {
+    background: url('../images/block/neon.jpg') center no-repeat; -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.block2 {
+    background: url('../images/block/chb.jpg') center no-repeat; -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.block3 {
+    background: url('../images/block/portrait.jpg') center no-repeat; -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.block4 {
+    background: url('../images/block/DSC08353.jpg') center no-repeat; -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.block__text {
+    position: absolute;
+    text-align: center;
+    width: 45%;
+    margin: -15% auto;
+    font-size: 22px;
+    opacity: 0;
+    transition: opacity .5s linear;
+
+
+}
+

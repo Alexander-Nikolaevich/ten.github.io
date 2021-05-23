@@ -1,0 +1,61 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__vert {
+    position: relative;
+    width: 48%;
+    display: block;
+}
+
+.block{
+    width: 100%;
+    padding-top: 100%;
+    z-index: 10;
+    color: #fff;
+    transition: background-size .5s ease;
+
+}
+
+.section__vert:hover .block {
+    background-size: 105%;
+}
+
+.section__vert:hover .block__text {
+    opacity: 1;
+}
+
+.block1 {
+    background: url('../images/block/neon.jpg') center no-repeat; -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.block2 {
+    background: url('../images/block/chb.jpg') center no-repeat; -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.block3 {
+    background: url('../images/block/portrait.jpg') center no-repeat; -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.block4 {
+    background: url('../images/block/DSC08353.jpg') center no-repeat; -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.block__text {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity .5s linear;
+}
+
